@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DemoAPI_REST"
+             x:Class="DemoAPI_REST.MainPage">
+
+    <ListView x:Name="lvwProduct">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" HeightRequest="10">
+                        <Label Text="{Binding Name}" TextColor="Black"></Label>
+                        <Label Text="{Binding Price}" TextColor="Black" FontSize="Micro"></Label>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</ContentPage>

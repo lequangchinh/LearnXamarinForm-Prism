@@ -1,0 +1,12 @@
+E:\LearXamarin\DemoAPI_REST_Prism\DemoAPI_REST_Prism\DemoAPI_REST_Prism\bin\Debug\netstandard2.0\DemoAPI_REST_Prism.deps.json
+E:\LearXamarin\DemoAPI_REST_Prism\DemoAPI_REST_Prism\DemoAPI_REST_Prism\bin\Debug\netstandard2.0\DemoAPI_REST_Prism.dll
+E:\LearXamarin\DemoAPI_REST_Prism\DemoAPI_REST_Prism\DemoAPI_REST_Prism\bin\Debug\netstandard2.0\DemoAPI_REST_Prism.pdb
+E:\LearXamarin\DemoAPI_REST_Prism\DemoAPI_REST_Prism\DemoAPI_REST_Prism\obj\Debug\netstandard2.0\DemoAPI_REST_Prism.csprojAssemblyReference.cache
+E:\LearXamarin\DemoAPI_REST_Prism\DemoAPI_REST_Prism\DemoAPI_REST_Prism\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\LearXamarin\DemoAPI_REST_Prism\DemoAPI_REST_Prism\DemoAPI_REST_Prism\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+E:\LearXamarin\DemoAPI_REST_Prism\DemoAPI_REST_Prism\DemoAPI_REST_Prism\obj\Debug\netstandard2.0\DemoAPI_REST_Prism.csproj.CoreCompileInputs.cache
+E:\LearXamarin\DemoAPI_REST_Prism\DemoAPI_REST_Prism\DemoAPI_REST_Prism\obj\Debug\netstandard2.0\DemoAPI_REST_Prism.AssemblyInfoInputs.cache
+E:\LearXamarin\DemoAPI_REST_Prism\DemoAPI_REST_Prism\DemoAPI_REST_Prism\obj\Debug\netstandard2.0\DemoAPI_REST_Prism.AssemblyInfo.cs
+E:\LearXamarin\DemoAPI_REST_Prism\DemoAPI_REST_Prism\DemoAPI_REST_Prism\obj\Debug\netstandard2.0\DemoAPI_REST_Prism.dll
+E:\LearXamarin\DemoAPI_REST_Prism\DemoAPI_REST_Prism\DemoAPI_REST_Prism\obj\Debug\netstandard2.0\DemoAPI_REST_Prism.pdb
+E:\LearXamarin\DemoAPI_REST_Prism\DemoAPI_REST_Prism\DemoAPI_REST_Prism\obj\Debug\netstandard2.0\XamlC.stamp

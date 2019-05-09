@@ -1,0 +1,12 @@
+E:\LearXamarin\DemoAPI_Refit\DemoAPI_Refit\DemoAPI_Refit\bin\Debug\netstandard2.0\DemoAPI_Refit.deps.json
+E:\LearXamarin\DemoAPI_Refit\DemoAPI_Refit\DemoAPI_Refit\bin\Debug\netstandard2.0\DemoAPI_Refit.dll
+E:\LearXamarin\DemoAPI_Refit\DemoAPI_Refit\DemoAPI_Refit\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\LearXamarin\DemoAPI_Refit\DemoAPI_Refit\DemoAPI_Refit\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\LearXamarin\DemoAPI_Refit\DemoAPI_Refit\DemoAPI_Refit\obj\Debug\netstandard2.0\DemoAPI_Refit.csproj.CoreCompileInputs.cache
+E:\LearXamarin\DemoAPI_Refit\DemoAPI_Refit\DemoAPI_Refit\obj\Debug\netstandard2.0\DemoAPI_Refit.AssemblyInfoInputs.cache
+E:\LearXamarin\DemoAPI_Refit\DemoAPI_Refit\DemoAPI_Refit\obj\Debug\netstandard2.0\DemoAPI_Refit.AssemblyInfo.cs
+E:\LearXamarin\DemoAPI_Refit\DemoAPI_Refit\DemoAPI_Refit\bin\Debug\netstandard2.0\DemoAPI_Refit.pdb
+E:\LearXamarin\DemoAPI_Refit\DemoAPI_Refit\DemoAPI_Refit\obj\Debug\netstandard2.0\DemoAPI_Refit.csprojAssemblyReference.cache
+E:\LearXamarin\DemoAPI_Refit\DemoAPI_Refit\DemoAPI_Refit\obj\Debug\netstandard2.0\XamlC.stamp
+E:\LearXamarin\DemoAPI_Refit\DemoAPI_Refit\DemoAPI_Refit\obj\Debug\netstandard2.0\DemoAPI_Refit.dll
+E:\LearXamarin\DemoAPI_Refit\DemoAPI_Refit\DemoAPI_Refit\obj\Debug\netstandard2.0\DemoAPI_Refit.pdb

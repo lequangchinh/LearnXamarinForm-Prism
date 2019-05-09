@@ -1,0 +1,12 @@
+E:\LearXamarin\DemoAPI_REST\DemoAPI_REST\DemoAPI_REST\bin\Debug\netstandard2.0\DemoAPI_REST.deps.json
+E:\LearXamarin\DemoAPI_REST\DemoAPI_REST\DemoAPI_REST\bin\Debug\netstandard2.0\DemoAPI_REST.dll
+E:\LearXamarin\DemoAPI_REST\DemoAPI_REST\DemoAPI_REST\obj\Debug\netstandard2.0\DemoAPI_REST.csprojAssemblyReference.cache
+E:\LearXamarin\DemoAPI_REST\DemoAPI_REST\DemoAPI_REST\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\LearXamarin\DemoAPI_REST\DemoAPI_REST\DemoAPI_REST\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\LearXamarin\DemoAPI_REST\DemoAPI_REST\DemoAPI_REST\obj\Debug\netstandard2.0\DemoAPI_REST.csproj.CoreCompileInputs.cache
+E:\LearXamarin\DemoAPI_REST\DemoAPI_REST\DemoAPI_REST\obj\Debug\netstandard2.0\DemoAPI_REST.AssemblyInfoInputs.cache
+E:\LearXamarin\DemoAPI_REST\DemoAPI_REST\DemoAPI_REST\obj\Debug\netstandard2.0\DemoAPI_REST.AssemblyInfo.cs
+E:\LearXamarin\DemoAPI_REST\DemoAPI_REST\DemoAPI_REST\bin\Debug\netstandard2.0\DemoAPI_REST.pdb
+E:\LearXamarin\DemoAPI_REST\DemoAPI_REST\DemoAPI_REST\obj\Debug\netstandard2.0\XamlC.stamp
+E:\LearXamarin\DemoAPI_REST\DemoAPI_REST\DemoAPI_REST\obj\Debug\netstandard2.0\DemoAPI_REST.dll
+E:\LearXamarin\DemoAPI_REST\DemoAPI_REST\DemoAPI_REST\obj\Debug\netstandard2.0\DemoAPI_REST.pdb

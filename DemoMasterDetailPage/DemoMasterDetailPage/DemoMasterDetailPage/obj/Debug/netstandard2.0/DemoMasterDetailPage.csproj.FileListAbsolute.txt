@@ -1,0 +1,15 @@
+E:\LearXamarin\DemoMasterDetailPage\DemoMasterDetailPage\DemoMasterDetailPage\bin\Debug\netstandard2.0\DemoMasterDetailPage.deps.json
+E:\LearXamarin\DemoMasterDetailPage\DemoMasterDetailPage\DemoMasterDetailPage\bin\Debug\netstandard2.0\DemoMasterDetailPage.dll
+E:\LearXamarin\DemoMasterDetailPage\DemoMasterDetailPage\DemoMasterDetailPage\bin\Debug\netstandard2.0\DemoMasterDetailPage.pdb
+E:\LearXamarin\DemoMasterDetailPage\DemoMasterDetailPage\DemoMasterDetailPage\obj\Debug\netstandard2.0\DemoMasterDetailPage.csprojAssemblyReference.cache
+E:\LearXamarin\DemoMasterDetailPage\DemoMasterDetailPage\DemoMasterDetailPage\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\LearXamarin\DemoMasterDetailPage\DemoMasterDetailPage\DemoMasterDetailPage\obj\Debug\netstandard2.0\DemoMasterDetailPage.csproj.CoreCompileInputs.cache
+E:\LearXamarin\DemoMasterDetailPage\DemoMasterDetailPage\DemoMasterDetailPage\obj\Debug\netstandard2.0\DemoMasterDetailPage.AssemblyInfoInputs.cache
+E:\LearXamarin\DemoMasterDetailPage\DemoMasterDetailPage\DemoMasterDetailPage\obj\Debug\netstandard2.0\DemoMasterDetailPage.AssemblyInfo.cs
+E:\LearXamarin\DemoMasterDetailPage\DemoMasterDetailPage\DemoMasterDetailPage\obj\Debug\netstandard2.0\XamlC.stamp
+E:\LearXamarin\DemoMasterDetailPage\DemoMasterDetailPage\DemoMasterDetailPage\obj\Debug\netstandard2.0\DemoMasterDetailPage.dll
+E:\LearXamarin\DemoMasterDetailPage\DemoMasterDetailPage\DemoMasterDetailPage\obj\Debug\netstandard2.0\DemoMasterDetailPage.pdb
+E:\LearXamarin\DemoMasterDetailPage\DemoMasterDetailPage\DemoMasterDetailPage\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+E:\LearXamarin\DemoMasterDetailPage\DemoMasterDetailPage\DemoMasterDetailPage\obj\Debug\netstandard2.0\Views\HomePageDetail.xaml.g.cs
+E:\LearXamarin\DemoMasterDetailPage\DemoMasterDetailPage\DemoMasterDetailPage\obj\Debug\netstandard2.0\Views\HomePageMaster.xaml.g.cs
+E:\LearXamarin\DemoMasterDetailPage\DemoMasterDetailPage\DemoMasterDetailPage\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs

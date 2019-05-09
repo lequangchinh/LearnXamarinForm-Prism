@@ -1,0 +1,12 @@
+E:\LearXamarin\DemoApiREST\DemoApiREST\DemoApiREST\bin\Debug\netstandard2.0\DemoApiREST.deps.json
+E:\LearXamarin\DemoApiREST\DemoApiREST\DemoApiREST\bin\Debug\netstandard2.0\DemoApiREST.dll
+E:\LearXamarin\DemoApiREST\DemoApiREST\DemoApiREST\bin\Debug\netstandard2.0\DemoApiREST.pdb
+E:\LearXamarin\DemoApiREST\DemoApiREST\DemoApiREST\obj\Debug\netstandard2.0\DemoApiREST.csprojAssemblyReference.cache
+E:\LearXamarin\DemoApiREST\DemoApiREST\DemoApiREST\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\LearXamarin\DemoApiREST\DemoApiREST\DemoApiREST\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\LearXamarin\DemoApiREST\DemoApiREST\DemoApiREST\obj\Debug\netstandard2.0\DemoApiREST.csproj.CoreCompileInputs.cache
+E:\LearXamarin\DemoApiREST\DemoApiREST\DemoApiREST\obj\Debug\netstandard2.0\DemoApiREST.AssemblyInfoInputs.cache
+E:\LearXamarin\DemoApiREST\DemoApiREST\DemoApiREST\obj\Debug\netstandard2.0\DemoApiREST.AssemblyInfo.cs
+E:\LearXamarin\DemoApiREST\DemoApiREST\DemoApiREST\obj\Debug\netstandard2.0\DemoApiREST.dll
+E:\LearXamarin\DemoApiREST\DemoApiREST\DemoApiREST\obj\Debug\netstandard2.0\DemoApiREST.pdb
+E:\LearXamarin\DemoApiREST\DemoApiREST\DemoApiREST\obj\Debug\netstandard2.0\XamlC.stamp

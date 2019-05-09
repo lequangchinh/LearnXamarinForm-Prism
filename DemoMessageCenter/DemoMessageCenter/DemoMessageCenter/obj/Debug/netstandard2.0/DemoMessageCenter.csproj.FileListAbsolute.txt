@@ -1,0 +1,12 @@
+E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\bin\Debug\netstandard2.0\DemoMessageCenter.deps.json
+E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\bin\Debug\netstandard2.0\DemoMessageCenter.dll
+E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\bin\Debug\netstandard2.0\DemoMessageCenter.pdb
+E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\obj\Debug\netstandard2.0\DemoMessageCenter.csprojAssemblyReference.cache
+E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\obj\Debug\netstandard2.0\DemoMessageCenter.csproj.CoreCompileInputs.cache
+E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\obj\Debug\netstandard2.0\DemoMessageCenter.AssemblyInfoInputs.cache
+E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\obj\Debug\netstandard2.0\DemoMessageCenter.AssemblyInfo.cs
+E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\obj\Debug\netstandard2.0\XamlC.stamp
+E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\obj\Debug\netstandard2.0\DemoMessageCenter.dll
+E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\obj\Debug\netstandard2.0\DemoMessageCenter.pdb

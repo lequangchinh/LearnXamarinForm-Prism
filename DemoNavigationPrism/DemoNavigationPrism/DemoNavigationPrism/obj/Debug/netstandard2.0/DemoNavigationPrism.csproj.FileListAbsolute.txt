@@ -1,0 +1,14 @@
+E:\LearXamarin\DemoNavigationPrism\DemoNavigationPrism\DemoNavigationPrism\bin\Debug\netstandard2.0\DemoNavigationPrism.deps.json
+E:\LearXamarin\DemoNavigationPrism\DemoNavigationPrism\DemoNavigationPrism\bin\Debug\netstandard2.0\DemoNavigationPrism.dll
+E:\LearXamarin\DemoNavigationPrism\DemoNavigationPrism\DemoNavigationPrism\bin\Debug\netstandard2.0\DemoNavigationPrism.pdb
+E:\LearXamarin\DemoNavigationPrism\DemoNavigationPrism\DemoNavigationPrism\obj\Debug\netstandard2.0\DemoNavigationPrism.csprojAssemblyReference.cache
+E:\LearXamarin\DemoNavigationPrism\DemoNavigationPrism\DemoNavigationPrism\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\LearXamarin\DemoNavigationPrism\DemoNavigationPrism\DemoNavigationPrism\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+E:\LearXamarin\DemoNavigationPrism\DemoNavigationPrism\DemoNavigationPrism\obj\Debug\netstandard2.0\DemoNavigationPrism.csproj.CoreCompileInputs.cache
+E:\LearXamarin\DemoNavigationPrism\DemoNavigationPrism\DemoNavigationPrism\obj\Debug\netstandard2.0\DemoNavigationPrism.AssemblyInfoInputs.cache
+E:\LearXamarin\DemoNavigationPrism\DemoNavigationPrism\DemoNavigationPrism\obj\Debug\netstandard2.0\DemoNavigationPrism.AssemblyInfo.cs
+E:\LearXamarin\DemoNavigationPrism\DemoNavigationPrism\DemoNavigationPrism\obj\Debug\netstandard2.0\XamlC.stamp
+E:\LearXamarin\DemoNavigationPrism\DemoNavigationPrism\DemoNavigationPrism\obj\Debug\netstandard2.0\DemoNavigationPrism.dll
+E:\LearXamarin\DemoNavigationPrism\DemoNavigationPrism\DemoNavigationPrism\obj\Debug\netstandard2.0\DemoNavigationPrism.pdb
+E:\LearXamarin\DemoNavigationPrism\DemoNavigationPrism\DemoNavigationPrism\obj\Debug\netstandard2.0\Views\ViewA.xaml.g.cs
+E:\LearXamarin\DemoNavigationPrism\DemoNavigationPrism\DemoNavigationPrism\obj\Debug\netstandard2.0\Views\ViewB.xaml.g.cs
