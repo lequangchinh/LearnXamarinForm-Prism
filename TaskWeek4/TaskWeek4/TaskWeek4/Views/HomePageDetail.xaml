@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskWeek4.Views.HomePageDetail"
+             Title="Detail">
+    <StackLayout Orientation="Horizontal">
+        <StackLayout WidthRequest="20">
+            
+        </StackLayout>
+        <StackLayout Padding="5">
+            <Label Text="Task Tuần 4" FontAttributes="Bold"/>
+            <Label Text="Dependency Service: Sử dụng Dependency service để chuyển văn bản thành giọng nói."/>
+            <Label Text="API - REST: Sử dụng ListView để hiện thị một danh sách sản phẩm cung cấp bởi API."/>
+            <Label Text="Essentials - Map: sử dụng Essentials để gọi API Map sẵn có."/>
+            <Label Text="Essentials - AppInfo: Sử dụng Essentials để gọi API trả về các thông tin của App"/>
+            <Label Text="Essentials - DeviceInfo: Sử dụng Essentials để gọi API trả về các thông tin Device"/>
+        </StackLayout>
+    </StackLayout>
+  
+</ContentPage>

@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Text;
 using Xamarin.Forms;
 
 namespace DemoMessageCenter.ViewModels
 {
-    public class BehaviorModelView
+    public class BehaviorModelView : BindableObject, INotifyPropertyChanged
     {
         public string TextMessageCenter { get; set; } = "dèault";
 
@@ -19,7 +20,7 @@ namespace DemoMessageCenter.ViewModels
         {
             Debug.WriteLine(obj);
             TextMessageCenter = obj.selectItemText;
-            OnPropertyChanged()
+            OnPropertyChanged("TextMessageCenter");
         }
     }
 }

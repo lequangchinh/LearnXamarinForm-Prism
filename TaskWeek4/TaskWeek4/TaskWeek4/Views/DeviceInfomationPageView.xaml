@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskWeek4.Views.DeviceInfomationPageView"
+             Title="Device Infomation">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand">
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="StartAndExpand"
+                         WidthRequest="220">
+                <Label Text="Name:"/>
+                <Label x:Name="lblDeViceName" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="StartAndExpand"
+                         WidthRequest="220">
+                <Label Text="Model:"/>
+                <Label x:Name="lblDeViceModel" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="StartAndExpand"
+                         WidthRequest="220">
+                <Label Text="Manufacturer:"/>
+                <Label x:Name="lblDeviceManufacturer" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="StartAndExpand"
+                         WidthRequest="220">
+                <Label Text="Version:"/>
+                <Label x:Name="lblDeviceVersion" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="StartAndExpand"
+                         WidthRequest="220">
+                <Label Text="Platfomr:"/>
+                <Label x:Name="lblDevicePlatfomr" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="StartAndExpand"
+                         WidthRequest="220">
+                <Label Text="Idiom:"/>
+                <Label x:Name="lblDeviceIdiom" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="StartAndExpand"
+                         WidthRequest="220">
+                <Label Text="Type:"/>
+                <Label x:Name="lblDeviceType" />
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

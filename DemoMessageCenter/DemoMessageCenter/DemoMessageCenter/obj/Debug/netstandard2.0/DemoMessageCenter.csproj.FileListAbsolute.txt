@@ -10,3 +10,4 @@ E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\obj\Debug\n
 E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\obj\Debug\netstandard2.0\XamlC.stamp
 E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\obj\Debug\netstandard2.0\DemoMessageCenter.dll
 E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\obj\Debug\netstandard2.0\DemoMessageCenter.pdb
+E:\LearXamarin\DemoMessageCenter\DemoMessageCenter\DemoMessageCenter\obj\Debug\netstandard2.0\Views\BehaviorView.xaml.g.cs
