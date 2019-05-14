@@ -1,0 +1,17 @@
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\bin\Debug\netstandard2.0\TaskWeek6.deps.json
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\bin\Debug\netstandard2.0\TaskWeek6.dll
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\bin\Debug\netstandard2.0\TaskWeek6.pdb
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\obj\Debug\netstandard2.0\Views\LoginPageView.xaml.g.cs
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\obj\Debug\netstandard2.0\TaskWeek6.csproj.CoreCompileInputs.cache
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\obj\Debug\netstandard2.0\TaskWeek6.AssemblyInfoInputs.cache
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\obj\Debug\netstandard2.0\TaskWeek6.AssemblyInfo.cs
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\obj\Debug\netstandard2.0\XamlC.stamp
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\obj\Debug\netstandard2.0\TaskWeek6.dll
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\obj\Debug\netstandard2.0\TaskWeek6.pdb
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\obj\Debug\netstandard2.0\TaskWeek6.csprojAssemblyReference.cache
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\obj\Debug\netstandard2.0\Views\HomePageDetail.xaml.g.cs
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\obj\Debug\netstandard2.0\Views\HomePageMaster.xaml.g.cs
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6\obj\Debug\netstandard2.0\Views\About.xaml.g.cs
