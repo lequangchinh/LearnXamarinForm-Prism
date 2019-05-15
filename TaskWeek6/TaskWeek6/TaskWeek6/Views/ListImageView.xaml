@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskWeek6.Views.ListImageView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <ListView x:Name="lvwImage">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell Height="155">
+                            <StackLayout Orientation="Horizontal" HeightRequest="155" Padding="0">
+                                <Image Source="{Binding ThumbnailUrl}" HeightRequest="150" WidthRequest="150"/>
+                                <Label Text="{Binding Title}" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Start"></Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

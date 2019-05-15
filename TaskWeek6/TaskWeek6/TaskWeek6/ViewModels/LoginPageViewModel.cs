@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 using TaskWeek6.Views;
 using Xamarin.Forms;
 using System.ComponentModel;
+using Prism.Navigation.Xaml;
 
 namespace TaskWeek6.ViewModels
 {
@@ -63,17 +64,19 @@ namespace TaskWeek6.ViewModels
             var respone = await client.GetStringAsync("https://jsonplaceholder.typicode.com/users");
             var product = JsonConvert.DeserializeObject<List<User>>(respone);
             */
-            
+
 
             if (string.IsNullOrEmpty(UserName))
             {
                 MessagingCenter.Send(this, "LoginAlert", UserName);
             }
-            else if(UserName.Equals("abc123") == true && PassWord.Equals("123456") == true)
+            else if (UserName.Equals("abc123") == true && PassWord.Equals("123456") == true)
             {
-                await _navigationService.NavigateAsync("MainPage");
+                await _navigationService.NavigateAsync("HomePage");
+                MessagingCenter.Send(this, "UserName", UserName);
+                MessagingCenter.Send(this, "PassWord", PassWord);
             }
-            else if(UserName.Equals("abc123") == false || PassWord.Equals("123456") == false)
+            else if (UserName.Equals("abc123") == false || PassWord.Equals("123456") == false)
             {
                 MessagingCenter.Send(this, "LoginFail", UserName);
             }

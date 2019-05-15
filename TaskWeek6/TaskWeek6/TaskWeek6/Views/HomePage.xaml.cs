@@ -38,7 +38,7 @@ namespace TaskWeek6.Views
             }
             else if (item.Id == 1)
             {
-                Detail = new NavigationPage(new About());
+                Detail = new NavigationPage(new ListImageView());
             }
             else if (item.Id == 2)
             {

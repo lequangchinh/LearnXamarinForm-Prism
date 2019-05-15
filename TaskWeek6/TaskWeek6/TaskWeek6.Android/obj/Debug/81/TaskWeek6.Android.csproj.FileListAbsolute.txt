@@ -114,6 +114,8 @@ E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6.Android\obj\Debug\81\res\mipmap-xhd
 E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6.Android\obj\Debug\81\res\mipmap-xxhdpi\usericon.png
 E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6.Android\obj\Debug\81\res\mipmap-xxxhdpi\usericon.png
 E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6.Android\obj\Debug\81\res\drawable\usericon.png
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6.Android\obj\Debug\81\res\drawable\maleicon.png
+E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6.Android\obj\Debug\81\res\drawable\securityicon.png
 E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6.Android\bin\Debug\TaskWeek6.Android.dll
 E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6.Android\obj\Debug\81\linksrc\TaskWeek6.Android.dll.mdb
 E:\LearXamarin\TaskWeek6\TaskWeek6\TaskWeek6.Android\obj\Debug\81\linksrc\Prism.dll.mdb

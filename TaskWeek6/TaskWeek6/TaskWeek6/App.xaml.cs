@@ -1,5 +1,6 @@
 ﻿using Prism;
 using Prism.Ioc;
+using Prism.Navigation.Xaml;
 using TaskWeek6.ViewModels;
 using TaskWeek6.Views;
 using Xamarin.Forms;
@@ -23,8 +24,9 @@ namespace TaskWeek6
         {
             InitializeComponent();
 
-            //await NavigationService.NavigateAsync("NavigationPage/LoginPageView");
-            await NavigationService.NavigateAsync("NavigationPage/HomePage");
+            await NavigationService.NavigateAsync("NavigationPage/LoginPageView");
+            //await NavigationService.NavigateAsync("NavigationPage/HomePage");
+            
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
