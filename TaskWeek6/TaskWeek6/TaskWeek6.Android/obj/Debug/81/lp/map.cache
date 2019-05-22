@@ -1,6 +1,8 @@
 DryIoc
 FormsViewGroup
+ModernHttpClient
 Newtonsoft.Json
+OkHttp
 Prism
 Prism.DryIoc.Forms
 Prism.Forms
@@ -28,7 +30,14 @@ Xamarin.Android.Support.v7.Palette
 Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
 Xamarin.Forms.Core
+Xamarin.Forms.Pages
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
+Xamarin.Forms.Theme.Android
+Xamarin.Forms.Theme.Base
+Xamarin.Forms.Theme.Dark
 Xamarin.Forms.Xaml
 netstandard
+System.Resources.ResourceManager
+System.ComponentModel
+System.Diagnostics.Tools

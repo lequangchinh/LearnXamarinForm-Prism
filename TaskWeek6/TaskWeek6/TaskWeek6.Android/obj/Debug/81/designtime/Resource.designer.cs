@@ -26,6 +26,7 @@ namespace TaskWeek6.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::ModernHttpClient.Resource.String.library_name = global::TaskWeek6.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::TaskWeek6.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::TaskWeek6.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::TaskWeek6.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -822,6 +823,8 @@ namespace TaskWeek6.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.expanded_menu = global::TaskWeek6.Droid.Resource.Id.expanded_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill = global::TaskWeek6.Droid.Resource.Id.fill;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@fixed = global::TaskWeek6.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_appbar = global::TaskWeek6.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_recycler = global::TaskWeek6.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.forever = global::TaskWeek6.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view = global::TaskWeek6.Droid.Resource.Id.ghost_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.home = global::TaskWeek6.Droid.Resource.Id.home;
@@ -5120,10 +5123,10 @@ namespace TaskWeek6.Droid
 			public const int @fixed = 2131492914;
 			
 			// aapt resource value: 0x7F020177
-			public const int flyoutcontent.appbar = 2130837879;
+			public const int flyoutcontent_appbar = 2130837879;
 			
 			// aapt resource value: 0x7F020178
-			public const int flyoutcontent.recycler = 2130837880;
+			public const int flyoutcontent_recycler = 2130837880;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
@@ -5940,6 +5943,9 @@ namespace TaskWeek6.Droid
 			// aapt resource value: 0x7F15001E
 			public const int appbar_scrolling_view_behavior = 2132082718;
 			
+			// aapt resource value: 0x7F050066
+			public const int ApplicationName = 2131034214;
+			
 			// aapt resource value: 0x7F050003
 			public const int app_name = 2131034115;
 			
@@ -5951,6 +5957,12 @@ namespace TaskWeek6.Droid
 			
 			// aapt resource value: 0x7F050002
 			public const int hello = 2131034114;
+			
+			// aapt resource value: 0x7F050065
+			public const int Hello = 2131034213;
+			
+			// aapt resource value: 0x7F050004
+			public const int library_name = 2131034116;
 			
 			// aapt resource value: 0x7F15001E
 			public const int mr_button_content_description = 2132082718;

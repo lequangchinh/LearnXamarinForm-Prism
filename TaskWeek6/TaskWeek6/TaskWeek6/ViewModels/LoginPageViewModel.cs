@@ -56,6 +56,7 @@ namespace TaskWeek6.ViewModels
             _navigationService = navigationService;
 
         }
+        public string temp = "";
 
         async void ExecuteNavigateCommand()
         {
@@ -64,7 +65,7 @@ namespace TaskWeek6.ViewModels
             var respone = await client.GetStringAsync("https://jsonplaceholder.typicode.com/users");
             var product = JsonConvert.DeserializeObject<List<User>>(respone);
             */
-
+            
 
             if (string.IsNullOrEmpty(UserName))
             {
@@ -73,6 +74,7 @@ namespace TaskWeek6.ViewModels
             else if (UserName.Equals("abc123") == true && PassWord.Equals("123456") == true)
             {
                 await _navigationService.NavigateAsync("HomePage");
+                temp = UserName;
                 MessagingCenter.Send(this, "UserName", UserName);
                 MessagingCenter.Send(this, "PassWord", PassWord);
             }

@@ -3,25 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TaskWeek6.Views.HomePageMaster"
              Title="Master">
-  <StackLayout>
-    <ListView x:Name="MenuItemsListView"
+    <StackLayout BackgroundColor="LightGray">
+        <ListView x:Name="MenuItemsListView"
               SeparatorVisibility="None"
               HasUnevenRows="true"
               ItemsSource="{Binding MenuItems}">
-      <ListView.Header>
-                
-          <Grid BackgroundColor="#03A9F4">
-              <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="20"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="20"/>
-              </Grid.ColumnDefinitions>
-              <Grid.RowDefinitions>
+            <ListView.Header>
+
+                <Grid BackgroundColor="Gray">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="20"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="20"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
                         <RowDefinition Height="5"/>
                         <RowDefinition Height="5"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="50"/>
-              </Grid.RowDefinitions>
+                    </Grid.RowDefinitions>
 
                     <Frame  Grid.Column="1"
                             Grid.Row="2"
@@ -30,7 +30,6 @@
                             WidthRequest="120"
                             HeightRequest="120"
                             BackgroundColor="Transparent"
-                            OutlineColor = "Blue"
                             HorizontalOptions="Start"
                             VerticalOptions="Start"
                             Margin="0"
@@ -46,31 +45,35 @@
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="15"/>
-                            <RowDefinition Height="15"/>
+                            <RowDefinition Height="18"/>
+                            <RowDefinition Height="18"/>
                         </Grid.RowDefinitions>
 
-                        <Label Grid.Column="0" Grid.Row="0" Text="UserName:"/>
-                        <Label Grid.Column="0" Grid.Row="1" Text="Name:"/>
+                        <Label Grid.Column="0" Grid.Row="0" Text="UserName: "/>
+                        <Label Grid.Column="0" Grid.Row="1" Text="Name: "/>
 
-                        <Label Grid.Column="1" Grid.Row="0" Text="abc123"/>
+                        <Label Grid.Column="1" Grid.Row="0" Text="abc123456"/>
                         <Label Grid.Column="1" Grid.Row="1" Text="Jonh Doe"/>
                     </Grid>
-                        
-        </Grid>
-      </ListView.Header>
-      <ListView.ItemTemplate>
-        <DataTemplate>
-          <ViewCell>
-            <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand">
-              <Label VerticalOptions="FillAndExpand" 
-                    VerticalTextAlignment="Center" 
-                    Text="{Binding Title}" 
-                    FontSize="24"/>
-            </StackLayout>
-          </ViewCell>
-        </DataTemplate>
-      </ListView.ItemTemplate>
-    </ListView>
-  </StackLayout>
+
+                </Grid>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand">
+                            <Label  VerticalOptions="FillAndExpand" 
+                                    VerticalTextAlignment="Center" 
+                                    Text="{Binding Title}" 
+                                    FontSize="24" />
+                                <!--- 
+                                <Button Text="{Binding Title}"/>
+                                -->
+                        </StackLayout>
+
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>

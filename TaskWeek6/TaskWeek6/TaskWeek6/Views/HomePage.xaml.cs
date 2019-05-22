@@ -32,6 +32,7 @@ namespace TaskWeek6.Views
             IsPresented = false;
 
             MasterPage.ListView.SelectedItem = null;
+
             if (item.Id == 0)
             {
                 Detail = new NavigationPage(new About());
@@ -42,9 +43,17 @@ namespace TaskWeek6.Views
             }
             else if (item.Id == 2)
             {
-                Detail = new NavigationPage(new About());
+                Detail = new NavigationPage(new ThumbnailListImage());
             }
-            
+            else if (item.Id == 3)
+            {
+                Detail = new NavigationPage(new PostPage());
+            }
+            else if (item.Id == 4)
+            {
+                Navigation.PopToRootAsync();
+            }
+
         }
     }
 }

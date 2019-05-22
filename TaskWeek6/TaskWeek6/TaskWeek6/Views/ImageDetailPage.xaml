@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskWeek6.Views.ImageDetailPage">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Frame BackgroundColor="Gray" CornerRadius="5">
+                <StackLayout>
+                    <Frame CornerRadius="5" BackgroundColor="Transparent" Margin="0" Padding="5">
+                        <Image Source="{Binding Url}"/>
+                    </Frame>
+                    <Frame CornerRadius="3" BackgroundColor="Transparent" Margin="0">
+                        <StackLayout >
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="ID: "/>
+                                <Label x:Name="lblId" Text="{Binding Id}"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="AnbumID: "/>
+                                <Label x:Name="lblAlbumId" Text="{Binding AlbumId}"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Title: "/>
+                                <Label x:Name="lblTitle" Text="{Binding Title}"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="URL: "/>
+                                <Label x:Name="lblURL" Text="{Binding Url}"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Album: "/>
+                                <Label x:Name="lblAlbum"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

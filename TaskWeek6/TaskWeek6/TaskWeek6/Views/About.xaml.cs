@@ -18,20 +18,26 @@ namespace TaskWeek6.Views
         public About ()
 		{
 			InitializeComponent ();
-           
-            lblUserName.Text = userName;
-            lblPass.Text = passWord;
-        }
-        public void getMessage()
-        {
+
             MessagingCenter.Subscribe<LoginPageViewModel, string>(this, "UserName", (sender, username) =>
             {
-                userName = username;
+                userName = username.ToString();
+                lblUserName.Text = username;
             });
             MessagingCenter.Subscribe<LoginPageViewModel, string>(this, "PassWord", (sender, pass) =>
             {
-                passWord = pass;
+                if (!string.IsNullOrEmpty(pass))
+                {
+                    passWord = pass;
+                    lblPass.Text = pass;
+                    passWord = lblPass.Text;
+                }
             });
+          
+
+            lblUserName.Text = userName;
+            lblPass.Text = passWord;
         }
+       
 	}
 }

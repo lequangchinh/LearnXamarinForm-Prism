@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskWeek6.Views.PostPageDetail"
+             Title="Post Detail">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BorderColor="Gray" CornerRadius="5" BackgroundColor="Gray" Margin="0" Padding="2">
+                <StackLayout>
+                    <Frame CornerRadius="5" BackgroundColor="Transparent">
+                        <StackLayout Orientation="Horizontal" Margin="0">
+                            <Label Text="{Binding ID}" WidthRequest="35" TextColor="Black"/>
+                            <Label Text="{Binding Title}" TextColor="Black" FontSize="Large"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame CornerRadius="3" Margin="0" BackgroundColor="Transparent">
+                        <StackLayout >
+                            <Label Text="{Binding Body}" IsEnabled="False" TextColor="Black" FontAttributes="Italic"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

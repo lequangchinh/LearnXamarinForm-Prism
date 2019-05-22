@@ -35,7 +35,9 @@ namespace TaskWeek6.Views
                 {
                     new HomePageMenuItem { Id = 0, Title = "Thông tin" },
                     new HomePageMenuItem { Id = 1, Title = "Duyệt ảnh" },
-                    new HomePageMenuItem { Id = 2, Title = "Đăng xuất" },
+                    new HomePageMenuItem { Id = 2, Title = "Thumbnail" },
+                    new HomePageMenuItem { Id = 3, Title = "Bài viết" },
+                    new HomePageMenuItem { Id = 4, Title = "Đăng xuất" }
                 });
             }
             

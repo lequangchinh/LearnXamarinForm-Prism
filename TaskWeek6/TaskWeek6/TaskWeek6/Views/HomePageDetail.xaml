@@ -13,14 +13,22 @@
     </StackLayout>  -->
 
     <RelativeLayout BackgroundColor="#007aff" IsClippedToBounds="false">
-        <StackLayout  Orientation="Vertical" x:Name="SplashLayout" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
-    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}"
-    RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1}"
-    >
-            <Image Source="maleIcon.png" HeightRequest="143" HorizontalOptions="Center"/>
-            <Label Text="Fundraising" FontSize="Large" TextColor="White" HorizontalOptions="Center" />
-            <Label Text="American Cancer Society" FontSize="Medium" TextColor="White" HorizontalOptions="Center" />
-        </StackLayout>
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
 
+            <RelativeLayout Grid.Column="0" Grid.Row="0" BackgroundColor="Accent"/>
+            <RelativeLayout Grid.Column="0" Grid.Row="1" BackgroundColor="Red"/>
+            <RelativeLayout Grid.Column="1" Grid.Row="0" BackgroundColor="Beige"/>
+            <RelativeLayout Grid.Column="1" Grid.Row="1" BackgroundColor="Gainsboro"/>
+            
+        </Grid>
     </RelativeLayout>
 </ContentPage>

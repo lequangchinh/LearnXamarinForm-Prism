@@ -4,10 +4,6 @@
              x:Class="TaskWeek6.Views.ListImageView">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-
             <ListView x:Name="lvwImage">
                 <ListView.ItemTemplate>
                     <DataTemplate>
