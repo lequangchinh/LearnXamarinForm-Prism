@@ -21,6 +21,7 @@ namespace TaskWeek6.ViewModels
 
         public ViewModelBase(INavigationService navigationService)
         {
+            Title = "djaksd";
             NavigationService = navigationService;
         }
 

@@ -18,24 +18,23 @@ namespace TaskWeek6.Views
         public ListImageView()
         {
             InitializeComponent();
-            GetImage();
-
-            lvwImage.ItemSelected += (object sender, SelectedItemChangedEventArgs e) =>
+           // GetImage();
+           /* lvwImage.ItemSelected += (object sender, SelectedItemChangedEventArgs e) =>
             {
                 var item = (ImageView)e.SelectedItem;
                 var page = new ImageDetailPage();
                 page.BindingContext = item;
                 Navigation.PushAsync(page);
-            };
+            };*/
         }
 
-        public void OnItemSelected(object sender, EventArgs e)
+       /* public void OnItemSelected(object sender, EventArgs e)
         {
             if (lvwImage.SelectedItem != null)
             {
                 DisplayAlert("OnItemSelected", lvwImage.SelectedItem.ToString(), "OK");
             }
-        }
+        }*/
 
 
         private async void GetImage()
@@ -72,7 +71,8 @@ namespace TaskWeek6.Views
                     imageList.Add(item);
                 }
             }
-            lvwImage.ItemsSource = imageList;
+            //lvwImage.BindingContext = imageslist;
+            //lvwImage.ItemsSource = imageList;
         }
     }
 }

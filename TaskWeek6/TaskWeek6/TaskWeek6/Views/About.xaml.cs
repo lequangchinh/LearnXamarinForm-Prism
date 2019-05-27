@@ -10,14 +10,14 @@ using Xamarin.Forms.Xaml;
 
 namespace TaskWeek6.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class About : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class About : ContentPage
+    {
         public string userName;
         public string passWord;
-        public About ()
-		{
-			InitializeComponent ();
+        public About()
+        {
+            InitializeComponent();
 
             MessagingCenter.Subscribe<LoginPageViewModel, string>(this, "UserName", (sender, username) =>
             {
@@ -33,11 +33,10 @@ namespace TaskWeek6.Views
                     passWord = lblPass.Text;
                 }
             });
-          
+
 
             lblUserName.Text = userName;
             lblPass.Text = passWord;
         }
-       
-	}
+    }
 }

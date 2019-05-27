@@ -9,10 +9,12 @@ using TaskWeek6.Views;
 using Xamarin.Forms;
 using System.ComponentModel;
 using Prism.Navigation.Xaml;
+using Refit;
+using NavigationParameters = Prism.Navigation.NavigationParameters;
 
 namespace TaskWeek6.ViewModels
 {
-  public  class LoginPageViewModel : ViewModelBase, INotifyPropertyChanged
+    public class LoginPageViewModel : ViewModelBase, INotifyPropertyChanged
     {
         private DelegateCommand _navigateCommand;
         private readonly INavigationService _navigationService;
@@ -20,7 +22,8 @@ namespace TaskWeek6.ViewModels
         public event PropertyChangedEventHandler PropertyChanged = delegate { };
 
         public string username;
-        public string UserName {
+        public string UserName
+        {
             set
             {
                 username = value;
@@ -47,40 +50,42 @@ namespace TaskWeek6.ViewModels
         }
 
 
-        public DelegateCommand NavigateCommand => _navigateCommand ?? (_navigateCommand = new DelegateCommand(ExecuteNavigateCommand));
+        public DelegateCommand NavigateCommandLogin => _navigateCommand ?? (_navigateCommand = new DelegateCommand(ExecuteNavigateCommand));
 
         public LoginPageViewModel(INavigationService navigationService)
             : base(navigationService)
         {
-            Title = "Login";
             _navigationService = navigationService;
-
         }
-        public string temp = "";
 
-        async void ExecuteNavigateCommand()
+        public async void ExecuteNavigateCommand()
         {
-            /*
-            HttpClient client = new HttpClient();
-            var respone = await client.GetStringAsync("https://jsonplaceholder.typicode.com/users");
-            var product = JsonConvert.DeserializeObject<List<User>>(respone);
-            */
-            
+            var apiResponse = RestService.For<IPhotoAPI>("https://jsonplaceholder.typicode.com");
+            var users = await apiResponse.GetUsers();
+
 
             if (string.IsNullOrEmpty(UserName))
             {
                 MessagingCenter.Send(this, "LoginAlert", UserName);
             }
-            else if (UserName.Equals("abc123") == true && PassWord.Equals("123456") == true)
+            else
             {
-                await _navigationService.NavigateAsync("HomePage");
-                temp = UserName;
-                MessagingCenter.Send(this, "UserName", UserName);
-                MessagingCenter.Send(this, "PassWord", PassWord);
-            }
-            else if (UserName.Equals("abc123") == false || PassWord.Equals("123456") == false)
-            {
-                MessagingCenter.Send(this, "LoginFail", UserName);
+                foreach (var user in users)
+                {
+                    if (UserName.Equals(user.username) == true && PassWord.Length > 6)
+                    {
+                        //var p = new NavigationParameters();
+                        //p.Add("user", user);
+                        await _navigationService.NavigateAsync("HomePage");
+
+                        MessagingCenter.Send(this, "UserName", UserName);
+                        MessagingCenter.Send(this, "PassWord", PassWord);
+                    }/*
+                    else
+                    {
+                        MessagingCenter.Send(this, "LoginFail", UserName);
+                    }*/
+                }
             }
         }
     }

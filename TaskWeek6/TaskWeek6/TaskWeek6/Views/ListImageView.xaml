@@ -1,14 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TaskWeek6.Views.ListImageView">
+             x:Class="TaskWeek6.Views.ListImageView"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             xmlns:behaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+             xmlns:local="clr-namespace:TaskWeek6"
+             Title="Duyệt ảnh">
     <ContentPage.Content>
         <StackLayout>
-            <ListView x:Name="lvwImage">
+            <ListView ItemsSource="{Binding Images}" >
+                <ListView.Behaviors>
+                    <!--EventArgsParameterPath="Item" mean: ItemTappedEventArgs.Item-->
+                    <behaviors:EventToCommandBehavior
+                    EventName="ItemTapped"
+                    Command="{Binding SelectCommand}"
+                    EventArgsParameterPath="Item" />
+                </ListView.Behaviors>
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell Height="155">
-                            <StackLayout Orientation="Horizontal" HeightRequest="155" Padding="0">
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="0">
                                 <Image Source="{Binding ThumbnailUrl}" HeightRequest="150" WidthRequest="150"/>
                                 <Label Text="{Binding Title}" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Start"></Label>
                             </StackLayout>

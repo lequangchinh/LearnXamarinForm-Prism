@@ -55,7 +55,7 @@
                             </Frame>
                             
                             <Frame Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand" Padding="0">
-                                <Button HeightRequest="45" WidthRequest="550" Text="Login" Command="{Binding NavigateCommand}" BackgroundColor="#19B8CD"/>
+                                <Button HeightRequest="45" WidthRequest="550" Text="Login" Command="{Binding NavigateCommandLogin}" BackgroundColor="#19B8CD"/>
                             </Frame>
                             <!--========================-->
                         </Grid>

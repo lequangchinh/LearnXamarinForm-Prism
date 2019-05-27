@@ -24,6 +24,7 @@ namespace TaskWeek6.Views
                 var page = new PostPageDetail();
                 page.BindingContext = item;
                 Navigation.PushAsync(page);
+
             };
         }
         private async void GetImage()

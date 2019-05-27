@@ -23,7 +23,7 @@ namespace TaskWeek6
         protected override async void OnInitialized()
         {
             InitializeComponent();
-            await NavigationService.NavigateAsync("NavigationPage/LoginPageView");
+            await NavigationService.NavigateAsync("NavigationPage/ListImageView");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
@@ -31,14 +31,15 @@ namespace TaskWeek6
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<LoginPageView, LoginPageViewModel>();
             containerRegistry.RegisterForNavigation<HomePage>();
-            containerRegistry.RegisterForNavigation<About, HomePageMasterModel>();
+            containerRegistry.RegisterForNavigation<About, AboutModel>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<HomePageMaster, HomePageMasterModel>();
             containerRegistry.RegisterForNavigation<HomePageDetail>();
-            containerRegistry.RegisterForNavigation<ListImageView, IPhotoAPI>();
-            containerRegistry.RegisterForNavigation<ImageDetailPage>();
+            containerRegistry.RegisterForNavigation<ListImageView, ListImageViewModel>();
+            containerRegistry.RegisterForNavigation<ImageDetailPage, ImageDetailPageViewModel>();
             containerRegistry.RegisterForNavigation<ThumbnailListImage>();
             containerRegistry.RegisterForNavigation<PostPage>();
+            containerRegistry.RegisterForNavigation<PostPageDetail>();
         }
     }
 }

@@ -15,13 +15,14 @@ using Xamarin.Forms.Xaml;
 namespace TaskWeek6.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class ImageDetailPage : ContentPage
+	public partial class ImageDetailPage : ContentPage 
 	{
         string albumId;
         public ImageDetailPage()
         {
             InitializeComponent();
-            albumId = lblAlbumId.Text;
+            
+            //albumId = lblAlbumId.Text;
            // GetAlbumTitle(albumId);
         }
         public async void GetAlbumTitle(string albumID)

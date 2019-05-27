@@ -23,16 +23,17 @@ namespace TaskWeek6.Views
             NavigationPage.SetHasNavigationBar(this, false);
 
             loginViewModel = new LoginPageViewModel(navigationService);
+
             MessagingCenter.Subscribe<LoginPageViewModel, string>(this, "LoginAlert", (sender, username) =>
             {
-                DisplayAlert("Title", username, "OK");
+                DisplayAlert("Not Empty", username, "OK");
             });
-
+            
             MessagingCenter.Subscribe<LoginPageViewModel, string>(this, "LoginFail", (sender, username) =>
             {
                 DisplayAlert("Login Fail", username, "OK");
             });
-
+            
             this.BindingContext = loginViewModel;
 
             etrUserName.Completed += (object sender, EventArgs e) =>

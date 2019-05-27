@@ -7,15 +7,27 @@
         <StackLayout>
             <Frame BorderColor="Gray" CornerRadius="5" BackgroundColor="Gray" Margin="0" Padding="2">
                 <StackLayout>
-                    <Frame CornerRadius="5" BackgroundColor="Transparent">
-                        <StackLayout Orientation="Horizontal" Margin="0">
+                    <Frame CornerRadius="5" BackgroundColor="Transparent" Padding="5">
+                        <StackLayout Orientation="Horizontal" Margin="0" Padding="5">
                             <Label Text="{Binding ID}" WidthRequest="35" TextColor="Black"/>
-                            <Label Text="{Binding Title}" TextColor="Black" FontSize="Large"/>
+                            <Label Text="{Binding Title}" TextColor="Black" FontSize="Medium"/>
                         </StackLayout>
                     </Frame>
                     <Frame CornerRadius="3" Margin="0" BackgroundColor="Transparent">
                         <StackLayout >
                             <Label Text="{Binding Body}" IsEnabled="False" TextColor="Black" FontAttributes="Italic"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent">
+                        <StackLayout>
+                            <ListView x:Name="lvwComments" >
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextCell Text="{Binding Name}" Detail="{Binding Body}" TextColor="Black">
+                                        </TextCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
                         </StackLayout>
                     </Frame>
                 </StackLayout>

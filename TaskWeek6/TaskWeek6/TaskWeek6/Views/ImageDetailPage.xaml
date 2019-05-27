@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TaskWeek6.Views.ImageDetailPage">
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="TaskWeek6.Views.ImageDetailPage"
+             Title="Chi tiết">
     <ContentPage.Content>
         <StackLayout Padding="10">
             <Frame BackgroundColor="Gray" CornerRadius="5">
-                <StackLayout>
+                <StackLayout >
                     <Frame CornerRadius="5" BackgroundColor="Transparent" Margin="0" Padding="5">
                         <Image Source="{Binding Url}"/>
                     </Frame>

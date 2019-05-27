@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:view="clr-namespace:TaskWeek6.ViewModels"
-             x:Class="TaskWeek6.Views.About">
+             x:Class="TaskWeek6.Views.About"
+             Title="Thông tin">
     <ContentPage.BindingContext>
          <view:User/>
     </ContentPage.BindingContext>
@@ -104,6 +105,9 @@
                 -->
                 </Grid>
             </Frame>
+            <Label x:Name="lbluser"/>
+            <Label x:Name="lblid"/>
+            <Label Text="sdsad"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

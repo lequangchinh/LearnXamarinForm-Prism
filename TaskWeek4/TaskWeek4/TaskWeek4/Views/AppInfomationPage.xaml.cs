@@ -17,7 +17,7 @@ namespace TaskWeek4.Views
 		public AppInfomationPage ()
 		{
 			InitializeComponent ();
-            GetInfomationApp();
+            		GetInfomationApp();
 		}
 
         private void GetInfomationApp()

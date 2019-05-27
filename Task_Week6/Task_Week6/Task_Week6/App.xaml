@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<prism:PrismApplication xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.DryIoc;assembly=Prism.DryIoc.Forms"
+             xmlns:dark="clr-namespace:Xamarin.Forms.Themes;assembly=Xamarin.Forms.Theme.Dark"
+             x:Class="Task_Week6.App">
+	<Application.Resources>
+        <ResourceDictionary MergedWith="dark:DarkThemeResources" />
+        <!-- Application resource dictionary -->
+
+	</Application.Resources>
+</prism:PrismApplication>

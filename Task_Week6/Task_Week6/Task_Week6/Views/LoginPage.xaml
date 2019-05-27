@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="Task_Week6.Views.LoginPage">
+
+    <ContentPage.Content>
+        <RelativeLayout BackgroundColor="#007aff" IsClippedToBounds="false">
+            <StackLayout  Orientation="Vertical" x:Name="SplashLayout" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}"
+                RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1}">
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="15"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="15"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <!--
+                        <Frame Grid.Column="1" Grid.Row="0" WidthRequest="200" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="20" Padding="0" >
+                            <Label Text="Login Form" FontAttributes="Bold" FontSize="Large"/>
+                        </Frame>
+                            -->
+                    <Frame BackgroundColor="#013082" Grid.Column="1" Grid.Row="1">
+
+                        <Grid Padding="0" Margin="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="45"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="45"/>
+                                <RowDefinition Height="45"/>
+                                <RowDefinition Height="45" />
+
+                            </Grid.RowDefinitions>
+
+                            <!--====================-->
+
+                            <Frame Grid.Column="0" Grid.Row="0" Padding="0" BackgroundColor="#66CCCC" Opacity="0.9">
+                                <Image Source="maleIcon.png" WidthRequest="45"/>
+                            </Frame>
+                            <Frame Grid.Column="0" Grid.Row="1" Padding="2" BackgroundColor="#66CCCC" Opacity="0.9">
+                                <Image Source="securityIcon.png" WidthRequest="45"/>
+                            </Frame>
+
+                            <Frame Grid.Column="1" Grid.Row="0" Padding="0">
+                                <Entry x:Name="etrUserName" Text="{Binding UserName}" Placeholder="User Name" />
+                            </Frame>
+                            <Frame Grid.Column="1" Grid.Row="1" Padding="0">
+                                <Entry x:Name="etrPass" Text="{Binding PassWord}" Placeholder="Password" IsPassword="True"/>
+                            </Frame>
+
+                            <Frame Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand" Padding="0">
+                                <Button HeightRequest="45" WidthRequest="550" Text="Login" Command="{Binding NavigateCommandLogin}" BackgroundColor="#19B8CD"/>
+                            </Frame>
+                            <!--========================-->
+                        </Grid>
+
+                    </Frame>
+                </Grid>
+
+
+
+            </StackLayout>
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>

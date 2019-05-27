@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using Refit;
 using System.Threading.Tasks;
+using System.Collections.ObjectModel;
 
 /* ******** Hey You! *********
  *
@@ -53,11 +54,19 @@ namespace TaskWeek6.ViewModels
         }
 
         /// <inheritdoc />
-        Task<List<ImageView>> IPhotoAPI.GetListImage(string albumId)
+        Task<ObservableCollection<ImageView>> IPhotoAPI.GetListImage(string albumId)
         {
             var arguments = new object[] { albumId };
             var func = requestBuilder.BuildRestResultFuncForMethod("GetListImage", new Type[] { typeof(string) });
-            return (Task<List<ImageView>>)func(Client, arguments);
+            return (Task<ObservableCollection<ImageView>>)func(Client, arguments);
+        }
+
+        /// <inheritdoc />
+        Task<ImageView> IPhotoAPI.GetImage(string Id)
+        {
+            var arguments = new object[] { Id };
+            var func = requestBuilder.BuildRestResultFuncForMethod("GetImage", new Type[] { typeof(string) });
+            return (Task<ImageView>)func(Client, arguments);
         }
 
         /// <inheritdoc />
@@ -66,6 +75,14 @@ namespace TaskWeek6.ViewModels
             var arguments = new object[] { userID };
             var func = requestBuilder.BuildRestResultFuncForMethod("GetUser", new Type[] { typeof(string) });
             return (Task<User>)func(Client, arguments);
+        }
+
+        /// <inheritdoc />
+        Task<List<User>> IPhotoAPI.GetUsers()
+        {
+            var arguments = new object[] {  };
+            var func = requestBuilder.BuildRestResultFuncForMethod("GetUsers", new Type[] {  });
+            return (Task<List<User>>)func(Client, arguments);
         }
 
         /// <inheritdoc />
@@ -90,6 +107,14 @@ namespace TaskWeek6.ViewModels
             var arguments = new object[] {  };
             var func = requestBuilder.BuildRestResultFuncForMethod("GetPosts", new Type[] {  });
             return (Task<List<Post>>)func(Client, arguments);
+        }
+
+        /// <inheritdoc />
+        Task<List<Comment>> IPhotoAPI.GetComments(string postId)
+        {
+            var arguments = new object[] { postId };
+            var func = requestBuilder.BuildRestResultFuncForMethod("GetComments", new Type[] { typeof(string) });
+            return (Task<List<Comment>>)func(Client, arguments);
         }
     }
 }
