@@ -23,7 +23,7 @@ namespace TaskWeek6
         protected override async void OnInitialized()
         {
             InitializeComponent();
-            await NavigationService.NavigateAsync("NavigationPage/ListImageView");
+            await NavigationService.NavigateAsync("NavigationPage/PostPage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
@@ -38,8 +38,8 @@ namespace TaskWeek6
             containerRegistry.RegisterForNavigation<ListImageView, ListImageViewModel>();
             containerRegistry.RegisterForNavigation<ImageDetailPage, ImageDetailPageViewModel>();
             containerRegistry.RegisterForNavigation<ThumbnailListImage>();
-            containerRegistry.RegisterForNavigation<PostPage>();
-            containerRegistry.RegisterForNavigation<PostPageDetail>();
+            containerRegistry.RegisterForNavigation<PostPage, PostPageViewModel>();
+            containerRegistry.RegisterForNavigation<PostPageDetail, PostPageDetailViewModel>();
         }
     }
 }

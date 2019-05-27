@@ -25,6 +25,7 @@ namespace TaskWeek6.Views
             //albumId = lblAlbumId.Text;
            // GetAlbumTitle(albumId);
         }
+        /*
         public async void GetAlbumTitle(string albumID)
         {
             var apiResponse = RestService.For<IPhotoAPI>("https://jsonplaceholder.typicode.com");
@@ -37,6 +38,6 @@ namespace TaskWeek6.Views
         {
             var apiResponse = RestService.For<IPhotoAPI>("https://jsonplaceholder.typicode.com");
             var user = await apiResponse.GetUser(userid);
-        }
+        }*/
     }
 }

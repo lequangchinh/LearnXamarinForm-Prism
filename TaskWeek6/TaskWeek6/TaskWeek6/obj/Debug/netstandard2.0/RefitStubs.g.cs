@@ -102,11 +102,11 @@ namespace TaskWeek6.ViewModels
         }
 
         /// <inheritdoc />
-        Task<List<Post>> IPhotoAPI.GetPosts()
+        Task<ObservableCollection<Post>> IPhotoAPI.GetPosts()
         {
             var arguments = new object[] {  };
             var func = requestBuilder.BuildRestResultFuncForMethod("GetPosts", new Type[] {  });
-            return (Task<List<Post>>)func(Client, arguments);
+            return (Task<ObservableCollection<Post>>)func(Client, arguments);
         }
 
         /// <inheritdoc />

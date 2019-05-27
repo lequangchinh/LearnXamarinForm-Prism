@@ -49,12 +49,5 @@ namespace TaskWeek6.Views
             */
         }
 
-
-        
-
-        
-
-
-
     }
 }

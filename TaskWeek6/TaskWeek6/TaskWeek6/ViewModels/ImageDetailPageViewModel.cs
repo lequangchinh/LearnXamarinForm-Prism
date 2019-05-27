@@ -57,7 +57,7 @@ namespace TaskWeek6.ViewModels
 
         public override void OnNavigatingTo(INavigationParameters parameters)
         {
-
+            Imag = parameters.GetValue<string>("Image");
         }
     }
 }

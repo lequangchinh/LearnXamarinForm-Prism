@@ -30,7 +30,10 @@ namespace TaskWeek6.ViewModels
         Task<AlbumsPhoto> GetAlbum(string albumID);
 
         [Get("/posts")]
-        Task<List<Post>> GetPosts();
+        Task<ObservableCollection<Post>> GetPosts();
+
+        [Get("/posts?postId={postId}")]
+        Task<Comment> GetPost(string postId);
 
         [Get("/comments?postId={postId}")]
         Task<List<Comment>> GetComments(string postId);

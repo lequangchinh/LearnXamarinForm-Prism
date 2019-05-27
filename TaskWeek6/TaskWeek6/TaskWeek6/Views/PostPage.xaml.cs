@@ -10,12 +10,13 @@ using Xamarin.Forms.Xaml;
 
 namespace TaskWeek6.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class PostPage : ContentPage
-	{
-		public PostPage ()
-		{
-			InitializeComponent ();
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class PostPage : ContentPage
+    {
+        public PostPage()
+        {
+            InitializeComponent();
+            /*
             GetImage();
 
             lvwPost.ItemSelected += (object sender, SelectedItemChangedEventArgs e) =>
@@ -26,13 +27,19 @@ namespace TaskWeek6.Views
                 Navigation.PushAsync(page);
 
             };
+            */
+
+            
         }
+        /*
         private async void GetImage()
         {
             var apiResponse = RestService.For<IPhotoAPI>("https://jsonplaceholder.typicode.com");
             var posts = await apiResponse.GetPosts();
           
             lvwPost.ItemsSource = posts;
-        }
+        }*/
     }
 }
+
+
