@@ -17,9 +17,12 @@ namespace TaskWeek6.Views
 		{
 			InitializeComponent ();
 
-            LoadBitmapCollection();
-        }
+            //LoadBitmapCollection();
 
+            activityIndicator.IsRunning = false;
+            activityIndicator.IsVisible = false;
+        }
+        /*
         async void LoadBitmapCollection()
         {
 
@@ -37,13 +40,13 @@ namespace TaskWeek6.Views
                     Source = ImageSource.FromUri(new Uri(imageAPI.Url))
                 };
                 image.HeightRequest = 200;
-                fllListImages.Children.Add(image);
+                //fllListImages.Children.Add(image);
             }
             
             activityIndicator.IsRunning = false;
             activityIndicator.IsVisible = false;
         }
-
+        */
 
             
 	}

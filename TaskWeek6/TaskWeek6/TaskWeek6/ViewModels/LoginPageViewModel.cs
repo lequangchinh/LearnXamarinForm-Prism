@@ -10,6 +10,9 @@ using Xamarin.Forms;
 using System.ComponentModel;
 using Prism.Navigation.Xaml;
 using Refit;
+
+
+
 using NavigationParameters = Prism.Navigation.NavigationParameters;
 
 namespace TaskWeek6.ViewModels
@@ -90,5 +93,6 @@ namespace TaskWeek6.ViewModels
         }
     }
 }
+
 
 

@@ -110,6 +110,14 @@ namespace TaskWeek6.ViewModels
         }
 
         /// <inheritdoc />
+        Task<Comment> IPhotoAPI.GetPost(string postId)
+        {
+            var arguments = new object[] { postId };
+            var func = requestBuilder.BuildRestResultFuncForMethod("GetPost", new Type[] { typeof(string) });
+            return (Task<Comment>)func(Client, arguments);
+        }
+
+        /// <inheritdoc />
         Task<List<Comment>> IPhotoAPI.GetComments(string postId)
         {
             var arguments = new object[] { postId };

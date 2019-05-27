@@ -1,16 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             xmlns:local="clr-namespace:TaskWeek6.ViewModels"
              x:Class="TaskWeek6.Views.ThumbnailListImage"
              Title="Thumbnail">
     <ContentPage.Content>
         <Grid>
             <ScrollView>
-                <FlexLayout x:Name="fllListImages"
-                        Wrap="Wrap"
-                            Margin="0"
-                            Padding="2"
-                        JustifyContent="Center"/>
+                <local:CustomFlexLayout ItemsSource="{Binding Images}">
+                    <local:CustomFlexLayout.ItemTemplate>
+                        <DataTemplate>
+                            <Frame  WidthRequest="300"
+                                    HeightRequest="480">
+                                <FlexLayout Direction="Column">
+
+                                    <Image Source="{Binding Url}"
+                                        WidthRequest="180"
+                                        HeightRequest="180"/>
+                                </FlexLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </local:CustomFlexLayout.ItemTemplate>
+                </local:CustomFlexLayout>
             </ScrollView>
 
             <ActivityIndicator x:Name="activityIndicator"

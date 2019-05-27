@@ -37,7 +37,7 @@ namespace TaskWeek6.ViewModels
             var apiResponse = RestService.For<IPhotoAPI>("https://jsonplaceholder.typicode.com");
             var post = await apiResponse.GetPost(MyPost);
 
-            Postm = post;
+            //Postm = post;
         }
 
         public override void OnNavigatedFrom(INavigationParameters parameters)

@@ -9,6 +9,7 @@ using Xamarin.Forms;
 using TaskWeek6.ViewModels;
 using Xamarin.Forms.Xaml;
 using Refit;
+using Xamarin.Forms.PlatformConfiguration;
 
 namespace TaskWeek6.Views
 {
@@ -28,21 +29,23 @@ namespace TaskWeek6.Views
             };*/
         }
 
-       /* public void OnItemSelected(object sender, EventArgs e)
-        {
-            if (lvwImage.SelectedItem != null)
-            {
-                DisplayAlert("OnItemSelected", lvwImage.SelectedItem.ToString(), "OK");
-            }
-        }*/
+        /* public void OnItemSelected(object sender, EventArgs e)
+         {
+             if (lvwImage.SelectedItem != null)
+             {
+                 DisplayAlert("OnItemSelected", lvwImage.SelectedItem.ToString(), "OK");
+             }
+         }*/
 
-
+        
         private async void GetImage()
         {
             HttpClient client = new HttpClient();
 
             var apiResponse = RestService.For<IPhotoAPI>("https://jsonplaceholder.typicode.com");
             var images = await apiResponse.GetListImage("1");
+
+
             //var user = await apiResponse.GetUser("1");
             //lvwImage.ItemsSource = images;
 
