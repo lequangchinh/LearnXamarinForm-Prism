@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
              xmlns:view="clr-namespace:TaskWeek6.ViewModels"
              x:Class="TaskWeek6.Views.About"
              Title="Thông tin">
     <ContentPage.BindingContext>
-         <view:User/>
+        <view:User/>
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
@@ -60,7 +62,7 @@
                         HorizontalOptions="Start"/>
                         <Label Grid.Column="1"
                         Grid.Row="1"
-                        Text="Jonh Doe"
+                        Text="{Binding Name}"
                         HorizontalOptions="Start"/>
 
                         <!--==============-->
@@ -71,6 +73,7 @@
                         <Label Grid.Column="1"
                             Grid.Row="2"
                             x:Name="lblUserName"
+                            Text="{Binding UserName}"
                             HorizontalOptions="Start"/>
 
                         <!--==============-->
@@ -81,6 +84,7 @@
                         <Label Grid.Column="1"
                         Grid.Row="3"
                         x:Name="lblPass"
+                        Text="{Binding PassWord}"
                         HorizontalOptions="Start"/>
 
                         <!--==============-->
@@ -105,9 +109,8 @@
                 -->
                 </Grid>
             </Frame>
-            <Label x:Name="lbluser"/>
-            <Label x:Name="lblid"/>
-            <Label Text="sdsad"/>
+            <Label Text="{Binding }"/>
+            <Label Text="{Binding }"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

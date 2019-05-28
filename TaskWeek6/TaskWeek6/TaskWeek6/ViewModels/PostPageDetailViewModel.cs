@@ -48,6 +48,7 @@ namespace TaskWeek6.ViewModels
         public override void OnNavigatedTo(INavigationParameters parameters)
         {
             MyPost = parameters.GetValue<string>("Image");
+            MyPost = parameters.GetValue<string>("Image");
         }
 
         public override void OnNavigatingTo(INavigationParameters parameters)

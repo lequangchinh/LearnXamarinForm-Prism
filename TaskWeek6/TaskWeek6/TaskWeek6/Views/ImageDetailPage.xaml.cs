@@ -17,27 +17,9 @@ namespace TaskWeek6.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ImageDetailPage : ContentPage 
 	{
-        string albumId;
         public ImageDetailPage()
         {
             InitializeComponent();
-            
-            //albumId = lblAlbumId.Text;
-           // GetAlbumTitle(albumId);
         }
-        /*
-        public async void GetAlbumTitle(string albumID)
-        {
-            var apiResponse = RestService.For<IPhotoAPI>("https://jsonplaceholder.typicode.com");
-            var album = await apiResponse.GetAlbum(albumID);
-
-            //lblAlbum.Text = album.Title;
-        }
-
-        public async void GetUserName(string userid)
-        {
-            var apiResponse = RestService.For<IPhotoAPI>("https://jsonplaceholder.typicode.com");
-            var user = await apiResponse.GetUser(userid);
-        }*/
     }
 }

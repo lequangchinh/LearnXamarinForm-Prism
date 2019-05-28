@@ -23,7 +23,7 @@ namespace TaskWeek6
         protected override async void OnInitialized()
         {
             InitializeComponent();
-            await NavigationService.NavigateAsync("NavigationPage/HomePage");
+            await NavigationService.NavigateAsync("NavigationPage/LoginPageView");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)

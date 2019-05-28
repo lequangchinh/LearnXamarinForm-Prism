@@ -16,29 +16,7 @@ namespace TaskWeek6.Views
         public PostPage()
         {
             InitializeComponent();
-            /*
-            GetImage();
-
-            lvwPost.ItemSelected += (object sender, SelectedItemChangedEventArgs e) =>
-            {
-                var item = (Post)e.SelectedItem;
-                var page = new PostPageDetail();
-                page.BindingContext = item;
-                Navigation.PushAsync(page);
-
-            };
-            */
-
-            
         }
-        /*
-        private async void GetImage()
-        {
-            var apiResponse = RestService.For<IPhotoAPI>("https://jsonplaceholder.typicode.com");
-            var posts = await apiResponse.GetPosts();
-          
-            lvwPost.ItemsSource = posts;
-        }*/
     }
 }
 

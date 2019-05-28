@@ -18,17 +18,6 @@ namespace TaskWeek6.Views
 		public PostPageDetail ()
 		{
 			InitializeComponent ();
-            GetComments("1");
         }
-        private async void GetComments(string postId)
-        {
-            var apiResponse = RestService.For<IPhotoAPI>("https://jsonplaceholder.typicode.com");
-            var comments = await apiResponse.GetComments(postId);
-
-            lvwComments.ItemsSource = comments;
-        }
-
-
-
     }
 }

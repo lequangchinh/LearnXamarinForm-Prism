@@ -14,15 +14,17 @@ using Refit;
 
 
 using NavigationParameters = Prism.Navigation.NavigationParameters;
+using Prism.Services;
 
 namespace TaskWeek6.ViewModels
 {
-    public class LoginPageViewModel : ViewModelBase, INotifyPropertyChanged
+    public class LoginPageViewModel : ViewModelBase
     {
         private DelegateCommand _navigateCommand;
         private readonly INavigationService _navigationService;
 
         public event PropertyChangedEventHandler PropertyChanged = delegate { };
+        public IPageDialogService _pageDialogService;
 
         public string username;
         public string UserName
@@ -55,11 +57,14 @@ namespace TaskWeek6.ViewModels
 
         public DelegateCommand NavigateCommandLogin => _navigateCommand ?? (_navigateCommand = new DelegateCommand(ExecuteNavigateCommand));
 
-        public LoginPageViewModel(INavigationService navigationService)
+        public LoginPageViewModel(INavigationService navigationService, IPageDialogService dialogService)
             : base(navigationService)
         {
             _navigationService = navigationService;
+            _pageDialogService = dialogService;
         }
+
+        
 
         public async void ExecuteNavigateCommand()
         {
@@ -69,7 +74,7 @@ namespace TaskWeek6.ViewModels
 
             if (string.IsNullOrEmpty(UserName))
             {
-                MessagingCenter.Send(this, "LoginAlert", UserName);
+                await _pageDialogService.DisplayAlertAsync("Thông báo", "Tài khoản và Mật khẩu không thể trống.", "OK");
             }
             else
             {
@@ -77,12 +82,13 @@ namespace TaskWeek6.ViewModels
                 {
                     if (UserName.Equals(user.username) == true && PassWord.Length > 6)
                     {
-                        //var p = new NavigationParameters();
-                        //p.Add("user", user);
-                        await _navigationService.NavigateAsync("HomePage");
+                        var p = new NavigationParameters();
+                        p.Add("user", user);
+                        await _navigationService.NavigateAsync("HomePage", p);
 
-                        MessagingCenter.Send(this, "UserName", UserName);
-                        MessagingCenter.Send(this, "PassWord", PassWord);
+                        //MessagingCenter.Send(this, "UserName", UserName);
+                        //MessagingCenter.Send(this, "PassWord", PassWord);
+                        
                     }/*
                     else
                     {
